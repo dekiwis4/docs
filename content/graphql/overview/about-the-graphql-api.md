@@ -5,7 +5,6 @@ versions:
   fpt: '*'
   ghec: '*'
   ghes: '*'
-  ghae: '*'
 topics:
   - API
 ---
@@ -20,13 +19,13 @@ Here are some quick links to get you up and running with the GraphQL API:
 * [Rate limits](/graphql/overview/resource-limitations)
 * [Migrating from REST](/graphql/guides/migrating-from-rest-to-graphql)
 
-For more information about {% data variables.product.company_short %}'s APIs, see "[AUTOTITLE](/rest/overview/about-githubs-apis)."
+For more information about {% data variables.product.company_short %}'s APIs, see [AUTOTITLE](/rest/overview/about-githubs-apis).
 
 ## About GraphQL
 
-The [GraphQL](https://graphql.github.io/) data query language is:
+The [GraphQL](https://graphql.org/) data query language is:
 
-* **A [specification](https://graphql.github.io/graphql-spec/June2018/).** The spec determines the validity of the [schema](/graphql/guides/introduction-to-graphql#schema) on the API server. The schema determines the validity of client calls.
+* **A [specification](https://spec.graphql.org/June2018/).** The spec determines the validity of the [schema](/graphql/guides/introduction-to-graphql#schema) on the API server. The schema determines the validity of client calls.
 
 * **[Strongly typed](#about-the-graphql-schema-reference).** The schema defines an API's type system and all object relationships.
 
@@ -50,10 +49,10 @@ The docs in the sidebar are generated from the {% data variables.product.prodnam
 
 * Schema-defined types: [scalars](/graphql/reference/scalars), [objects](/graphql/reference/objects), [enums](/graphql/reference/enums), [interfaces](/graphql/reference/interfaces), [unions](/graphql/reference/unions), and [input objects](/graphql/reference/input-objects).
 
-You can access this same content via the [Explorer Docs sidebar](/graphql/guides/using-the-explorer#accessing-the-sidebar-docs). Note that you may need to rely on both the docs and the schema validation to successfully call the GraphQL API.
-
 For other information, such as authentication and rate limit details, check out the [guides](/graphql/guides).
 
 ## Requesting support
 
 {% data reusables.support.help_resources %}
+
+If you observe unexpected failures, you can use [githubstatus.com](https://www.githubstatus.com/) or the [{% data variables.product.company_short %} status API](https://www.githubstatus.com/api) to check for incidents affecting the API.

@@ -12,4 +12,3 @@ children:
   - /best-practices-for-projects
 allowTitleToDifferFromFilename: true
 ---
-

@@ -1,1 +1,1 @@
-1. Under "{% octicon "gear" aria-label="" %} Settings", click **Hooks**.
+1. Under "{% octicon "gear" aria-hidden="true" aria-label="gear" %} Settings", click **Hooks**.
